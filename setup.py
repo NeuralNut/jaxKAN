@@ -19,7 +19,7 @@ setup(
     description='A JAX-based implementation of Kolmogorov-Arnold Networks',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/NeuralNut/jaxKAN',
+    url='https://github.com/srigas/jaxkan',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
