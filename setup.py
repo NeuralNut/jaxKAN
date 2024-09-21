@@ -5,11 +5,11 @@ setup(
     version='0.1.6',
     packages=find_packages(),
     install_requires=[
-        'scipy==1.13.1',
-        'numpy==1.26.4',
-        'flax==0.8.3',
-        'jax[cpu]==0.4.28',
-        'optax==0.2.2',
+        'scipy',
+        'numpy',
+        'flax',
+        'jax[cuda12]',
+        'optax',
     ],
     extras_require={
         'gpu': ['jax[cuda12]'],
@@ -19,7 +19,7 @@ setup(
     description='A JAX-based implementation of Kolmogorov-Arnold Networks',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/srigas/jaxkan',
+    url='https://github.com/NeuralNut/jaxKAN',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

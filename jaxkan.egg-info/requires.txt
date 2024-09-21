@@ -1,0 +1,8 @@
+scipy
+numpy
+flax
+jax[cuda12]
+optax
+
+[gpu]
+jax[cuda12]
