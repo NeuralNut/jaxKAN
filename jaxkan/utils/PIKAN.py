@@ -279,7 +279,7 @@ def get_adapt_loss(pde_loss, model, variables):
 
 
 def train_PIKAN(model, variables, pde_loss, collocs, bc_collocs, bc_data, glob_w, lr_vals, 
-                adapt_state=True, loc_w=None, nesterov=True, num_epochs = 3001, grid_extend={0 : 3}, grid_adapt=[], collo_adapt={'epochs':[], 'M':1000, 'k':1.0, 'c':1.0}):
+                adapt_state=True, loc_w=None, nesterov=True, num_epochs = 3001, grid_extend={0 : 3}, grid_adapt=[], colloc_adapt={'epochs':[], 'M':1000, 'k':1.0, 'c':1.0}):
     '''
         Training routine for a PIKAN
         
